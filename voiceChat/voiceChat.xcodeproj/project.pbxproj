@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F765941727D748CA00D9F5BF /* VocieChatUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F765941627D748CA00D9F5BF /* VocieChatUIViewController.swift */; };
 		F78C5ED627D7227B00F39FD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78C5ED527D7227B00F39FD2 /* AppDelegate.swift */; };
 		F78C5ED827D7227B00F39FD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78C5ED727D7227B00F39FD2 /* SceneDelegate.swift */; };
-		F78C5EDA27D7227B00F39FD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78C5ED927D7227B00F39FD2 /* ViewController.swift */; };
 		F78C5EDD27D7227B00F39FD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F78C5EDB27D7227B00F39FD2 /* Main.storyboard */; };
 		F78C5EDF27D7227D00F39FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78C5EDE27D7227D00F39FD2 /* Assets.xcassets */; };
 		F78C5EE227D7227D00F39FD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F78C5EE027D7227D00F39FD2 /* LaunchScreen.storyboard */; };
@@ -36,10 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F765941627D748CA00D9F5BF /* VocieChatUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocieChatUIViewController.swift; sourceTree = "<group>"; };
 		F78C5ED227D7227B00F39FD2 /* voiceChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voiceChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78C5ED527D7227B00F39FD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F78C5ED727D7227B00F39FD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F78C5ED927D7227B00F39FD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F78C5EDC27D7227B00F39FD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F78C5EDE27D7227D00F39FD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F78C5EE127D7227D00F39FD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,10 +99,10 @@
 		F78C5ED427D7227B00F39FD2 /* voiceChat */ = {
 			isa = PBXGroup;
 			children = (
+				F78C5EDB27D7227B00F39FD2 /* Main.storyboard */,
 				F78C5ED527D7227B00F39FD2 /* AppDelegate.swift */,
 				F78C5ED727D7227B00F39FD2 /* SceneDelegate.swift */,
-				F78C5ED927D7227B00F39FD2 /* ViewController.swift */,
-				F78C5EDB27D7227B00F39FD2 /* Main.storyboard */,
+				F765941627D748CA00D9F5BF /* VocieChatUIViewController.swift */,
 				F78C5EDE27D7227D00F39FD2 /* Assets.xcassets */,
 				F78C5EE027D7227D00F39FD2 /* LaunchScreen.storyboard */,
 				F78C5EE327D7227D00F39FD2 /* Info.plist */,
@@ -258,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F78C5EDA27D7227B00F39FD2 /* ViewController.swift in Sources */,
+				F765941727D748CA00D9F5BF /* VocieChatUIViewController.swift in Sources */,
 				F78C5ED627D7227B00F39FD2 /* AppDelegate.swift in Sources */,
 				F78C5ED827D7227B00F39FD2 /* SceneDelegate.swift in Sources */,
 			);

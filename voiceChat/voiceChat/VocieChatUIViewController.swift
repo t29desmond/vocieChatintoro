@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  vocieChatUIViewController.swift
 //  voiceChat
 //
 //  Created by 윤대식 on 2022/03/08.
@@ -20,14 +20,10 @@ extension UIView {
     }
 
 
-class ViewController: UIViewController {
-    
+class VocieChatUIViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-    
-
-    }
-    
- }
-
+        }
+}
 }
